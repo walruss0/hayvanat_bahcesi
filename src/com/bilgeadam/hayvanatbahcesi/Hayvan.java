@@ -1,7 +1,10 @@
 package com.bilgeadam.hayvanatbahcesi;
 //Encapsulation = Information Hidding = Bilgi Gizleme
-//Değişkenler private olur, get-set methodlarıyla
-public class Hayvan {
+//Değişkenler private olur, get-set methodlarıyla getirilir.
+
+//Hayvan classının objesinin oluşturulmasını istemiyoruz.
+//abstract class yapacağız
+public abstract class Hayvan {
     private String  ad;
     private double  agirlik;
     private double  uzunluk;
@@ -39,7 +42,7 @@ public class Hayvan {
     }
 
     public void sesCikar(){
-            System.out.println("--------");
+            System.out.println("--------a");
     }
 
 
