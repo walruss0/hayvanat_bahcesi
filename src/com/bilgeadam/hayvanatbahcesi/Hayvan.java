@@ -8,6 +8,7 @@ public abstract class Hayvan {
     private String  ad;
     private double  agirlik;
     private double  uzunluk;
+    private double  kuyrukUzunlugu;
 
     //contructor
     public Hayvan() {
@@ -45,5 +46,11 @@ public abstract class Hayvan {
             System.out.println("--------a");
     }
 
+    public double getKuyrukUzunlugu() {
+        return kuyrukUzunlugu;
+    }
 
+    public void setKuyrukUzunlugu(double kuyrukUzunlugu) {
+        this.kuyrukUzunlugu = kuyrukUzunlugu;
+    }
 }
